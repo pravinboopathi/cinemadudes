@@ -116,7 +116,7 @@ body{
     width: 54.5%;
     height: 54.5%;
     margin-left: 10%;
-    margin-top: -90%;
+    margin-top: -100%;
     margin-bottom: 16.5%;
     margin-right: 10px;
    position: relative;
@@ -395,10 +395,61 @@ text-align: center;
 
 
 /* media queries */
+@media screen and (max-width:576px){
+  
+.h1top{
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    margin-left: 3%;
+    font-size: 45px;    
+}
+
+.h4top{
+    text-align: left;
+    margin:0% 12%;
+    margin-left: 3%;
+    color: #DCD7C9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mailhead{
+    color: white;
+    text-align: left;
+    margin-top: 8%;
+    margin-bottom: auto;
+    margin-left: 3%;
+    font-size: medium;
+}
+
+
+.mailbox{
+    margin-left: 3%;
+    margin-right: 1%;
+    border-radius: 10px;
+    
+}
+
+.mailbtn{
+    margin-right: 31%;
+    border-radius: 10px;
+}
+
+
+.navbrand{
+    color: aliceblue;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    margin-left: 0%;
+    justify-content: space-between;
+}
 
 
 
 
 
-
-
+}
