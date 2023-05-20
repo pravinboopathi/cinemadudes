@@ -395,6 +395,45 @@ text-align: center;
 
 
 /* media queries */
+
+
+
+@media screen and (max-width:996px){
+*{
+    overflow:inherit;
+}
+.tvside{
+    padding-bottom: 200px;
+    margin-left: 150px;
+    height: auto;
+    
+    
+}
+
+.tvimg{
+    height: 500px;
+    width: 550px;
+    margin-top: 6%;
+    z-index: -1;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/common/transparent_1x1.png') ;
+}
+
+.videotv{
+    width: 500px;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: -90%;
+    margin-bottom: 51.5%;
+    margin-right: 10px;
+   position: relative;
+   z-index: -1;
+    
+}
+
+
+}
+
+
 @media screen and (max-width:576px){
   
 .h1top{
@@ -455,37 +494,4 @@ text-align: center;
 }
 
 
-@media screen and (max-width:996px){
-*{
-    overflow:inherit;
-}
-.tvside{
-    padding-bottom: 200px;
-    margin-left: 150px;
-    height: auto;
-    
-    
-}
 
-.tvimg{
-    height: 500px;
-    width: 550px;
-    margin-top: 6%;
-    z-index: -1;
-    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/common/transparent_1x1.png') ;
-}
-
-.videotv{
-    width: 500px;
-    height: 400px;
-    margin-left: 10%;
-    margin-top: -90%;
-    margin-bottom: 51.5%;
-    margin-right: 10px;
-   position: relative;
-   z-index: -1;
-    
-}
-
-
-}
