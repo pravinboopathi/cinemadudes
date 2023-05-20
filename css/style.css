@@ -434,7 +434,7 @@ text-align: center;
 }
 
 
-@include media-breakpoint-up(sm) {
+@media screen and (max-width:576px) {
   
 .h1top{
     text-align: left;
