@@ -9,7 +9,7 @@ body{
 
     
 
-
+@media screen and (min-width:1024px){
 .top{
     /* background-color: #070A52; */
    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/6e99205c-e34b-4dbe-ba45-b026023791bc/IN-en-20230508-popsignuptwoweeks-perspective_alpha_website_small.jpg');
@@ -403,74 +403,7 @@ text-align: center;
 
 /* ------------------------------------------------------------------------------------------------ */
 
-
-
-    
-body{
-    height: auto;
 }
-
-.top{
-    /* background-color: #070A52; */
-   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/6e99205c-e34b-4dbe-ba45-b026023791bc/IN-en-20230508-popsignuptwoweeks-perspective_alpha_website_small.jpg');
-   background-size: cover;
-   background-position: center;
-   height: auto;
-   
-   
-}
-
-
-.navtop{
-    margin: auto 10% auto ;
-    animation: nav 2s ease-in-out;
-}
-
-@keyframes nav{
-    0%{
-        transform: translateY(-100%);
-    }
-}
-
-
-
-.h1top{
-    text-align: center;
-    margin: 14% 12% auto 12% ;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900; 
-    
-    font-size: 40px;    
-}
-
-
-.h4top:hover{
-    color: white;
-}
-
-.h4top{
-    text-align: center;
-    margin-top: 3%;
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/* hr  */
-.hr{
-    background-color: #232323;
-    height: 8px;
-    
-}
-/* ------------------------------------------------------------------------------------------------ */
-
-
-
-
-
-/* ------------------------------------------------------------------------------------------------ */
-
 
 
 
