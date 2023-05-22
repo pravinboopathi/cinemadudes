@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
     <title>Cinema Dudes</title>
 
     <!-- fontawesome  -->
@@ -24,6 +23,569 @@
   <!-- css  -->
 
   <link rel="stylesheet" href="css/style.css">
+ 
+ 
+ <style>
+ body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    height: 1700px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+    
+
+
+.top{
+    /* background-color: #070A52; */
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/6e99205c-e34b-4dbe-ba45-b026023791bc/IN-en-20230508-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 660px;
+   
+   
+}
+
+
+.navtop{
+    margin: auto 10% auto ;
+    animation: nav 2s ease-in-out;
+}
+
+@keyframes nav{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+
+
+
+.h1top{
+    text-align: center;
+    margin: 14% 12% auto 12% ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+    line-height: 2;
+    font-size: 270%;    
+}
+
+
+.h4top:hover{
+    color: white;
+}
+
+.h4top{
+    text-align: center;
+    margin:0% 12%;
+    color: #DCD7C9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* topbtn */
+.mainbutton{
+    margin-left: 35%;
+    padding-bottom: 100px;
+        padding-top: 30px;
+}
+
+.topbtn{
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+
+/* hr  */
+.hr{
+    background-color: #232323;
+    height: 8px;
+    
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* TV side  */
+
+.black{
+    overflow: hidden;
+    background-color: #000000;
+    z-index: -1;
+    position: relative;
+}
+
+
+
+.tvcol{
+    height: auto;
+   background-color: #000000;
+}
+
+.tvheading{
+   text-align: center;
+   margin: 20% 12% auto 12% ;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; 
+   line-height: 2;
+   font-size: 40px;  
+}
+
+
+.tvtext{
+    text-align: left;
+    margin:0% 20%;
+    color: #DCD7C9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tvimg{
+    height: 75%;
+    width: 75%;
+    margin-top: 6%;
+    z-index: -1;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/common/transparent_1x1.png') ;
+}
+
+.videotv{
+    width: 54.5%;
+    height: 54.5%;
+    margin-left: 10%;
+    margin-top: -100%;
+    margin-bottom: 16.5%;
+    margin-right: 10px;
+   position: relative;
+   z-index: -1;
+    
+}
+.transparentimg{
+    position: relative;
+   z-index: 0;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+
+/* features col  */
+
+/* f1 */
+.feature{
+    background-color: #000000;
+    height: auto;
+    padding: 100px;
+   
+}
+
+@keyframes f1 {
+
+    0%{
+        transform: translateX(-100%);
+    }
+}
+
+.fhead{
+    color: aliceblue;
+}
+
+.ftext{
+    color: aquamarine;
+}
+
+
+.featurehead{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    font-size: 270%; 
+    margin-bottom: 5%;
+}
+
+/* f1  */
+.f1img{
+    height: 200px;
+    width: 350px;
+}
+
+.f1box{
+    margin-top: -2%;
+   
+}
+
+
+
+/* f2  */
+.f2img{
+    height: 200px;
+    width: 270px;
+    margin-top: -6%;
+    margin-left: 10%;
+
+}
+
+
+/* f3  */
+.f3img{
+    height: 200px;
+    width: 250px;
+    margin-top: -5%;
+    margin-left: 10%;
+
+}
+
+.f3box{
+    padding-left: 5%;
+    margin-top: -1%;
+}
+
+
+
+
+
+
+/* download col  */
+.download{
+   background-color: #000000; 
+   height: auto;
+
+}
+
+.downhead{
+    text-align: left;
+    margin: 20% 12% auto auto ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+    font-size: 270%;  
+}
+
+.downtext{
+    text-align: left;
+    margin: 5% 12% auto auto ;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.mobdownfull{
+    height: 66%;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
+.downgif{
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat;-webkit-background-size:100%;background-size:100%;content:'';-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;
+   height: 38px;
+   width: 40px;
+   margin-left: 53%;
+   margin-top: -10%;
+   position: relative;
+   z-index: 1;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+/* pricing col start */
+
+#pricing{
+    background-color: #000000;
+    padding: 100px;
+}
+
+.pricinghead{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.pricingtext{
+    text-align: center;
+    color: goldenrod;
+}
+
+.pricebox{
+background-color: #000000;
+border: 1px solid whitesmoke;
+border-radius: 13px;
+color: antiquewhite;
+text-align: center;
+}
+
+
+/* heading color  */
+.pl1{
+    color: red;
+}
+
+.pl2{
+    color: aqua;
+}
+
+.pl3{
+    color: goldenrod;
+}
+
+/* pricing col end  */
+/* ------------------------------------------------------------------------------------------------ */
+
+/* question col start */
+
+
+
+.questioncol{
+    background-color: #000000;
+    height: auto;
+}
+
+.questionhead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 280%;
+    margin-bottom: 3%;
+}
+
+.qanswer{
+    background-color: #000000;
+    border: 1px solid whitesmoke;
+    border-radius: 13px;
+    color: antiquewhite;
+    margin-left: 15%;
+    margin-right: 14%;
+
+}
+
+
+.qbtn{
+    background-color: #232323;
+    border: 1px solid #232323;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+.qbtn:hover{
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
+
+.qbtn1{
+    margin-left: 15%;
+    padding-right: 58%;
+}
+
+.qbtn2{
+    margin-left: 15%;
+    padding-right: 49%;
+}
+
+.qbtn3{
+    margin-left: 15%;
+    padding-right: 61.6%;
+}
+
+
+.qbtn4{
+    margin-left: 15%;
+    padding-right: 57.4%;
+}
+
+/* question col end  */
+
+/* mail col  */
+
+.mailhead{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.mailbox{
+    margin-left: 34%;
+    margin-right: 1%;
+    border-radius: 10px;
+    
+}
+
+.mailbtn{
+    margin-right: 31%;
+    border-radius: 10px;
+}
+
+.copyright{
+    text-align: center;
+    color: #DCD7C9;
+    margin-top: 8%;
+    padding-bottom: 2%;
+    font-size: small;
+  
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+
+
+    .h1top{ 
+        line-height: 1;
+    }
+
+
+    .mainbutton{
+        margin-left: 32%;
+        padding-bottom: 100px;
+        padding-top: 30px;
+    }
+
+
+
+.tvside{
+    padding-left:20%;
+    padding-bottom: 60px;
+}
+
+/* features  */
+.f3box{
+    padding-left: 2%;
+    margin-top: -1%;
+}
+
+
+
+
+
+/* download col  */
+.downgif{
+   margin-left: 54.6%;
+   margin-top: -9%;
+  }
+
+  .downhead{
+   margin-left: 1.5%;
+    margin-top: 2%;
+    font-weight: 900; 
+    font-size: 40px;  
+}
+
+.downtext{
+    text-align: left;
+    margin-left: 1.5%;
+    padding-bottom: 60px;
+    
+}
+
+/* plan  */
+.pricebox{
+    margin-top: 7%;
+}
+
+
+/* q/a  */
+
+.qbtn2{
+padding-right: 45%;
+}
+
+.qbtn3{
+    padding-right: 62.3%;
+}
+
+
+}
+
+
+/* mobile screen  */
+@media screen and (max-width:576px){
+
+
+.h1top{
+text-align: left;
+}
+
+.h4top{
+   text-align: left ;
+}
+
+
+/* btn  */
+    .mainbutton{
+        margin-left: 20%;
+        
+    }
+
+
+/* tv  */
+    .tvtext{
+        text-align: left;
+        margin:0% 17%;
+  }
+ 
+  /* download  */
+  .downgif{
+    height: 30px;
+   margin-left: 53%;
+   margin-top: -10%;
+  
+}
+
+/* q/a  */
+.questionhead{
+padding-top: 10%;
+padding-bottom: 5%;
+font-size: 40px;
+}
+
+
+
+.qbtn1{
+    padding-right: 183px;
+}
+
+.qbtn2{
+    padding-right: 60px;
+}
+
+.qbtn3{
+    padding-right: 230px;
+}
+
+.qbtn4{
+    padding-right: 180px;
+}
+}
+ </style>
+ 
+ 
+ 
  
 </head>
 <body>
