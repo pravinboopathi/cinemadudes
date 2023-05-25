@@ -103,7 +103,7 @@ p{
     /* background-color: #11113d; */
     background-color: #353535;
     cursor: pointer;
-    border: 3px solid #353535;
+    border:2px solid #353535;
 }
 
 .moviescol p:hover{
